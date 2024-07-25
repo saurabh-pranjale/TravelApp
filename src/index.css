@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+.main{
+  width: 94%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.heading{
+  text-align: center;
+  border: 4px dotted purple;
+  width: 60%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+padding: 1rem;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6%;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+#Card{
+  height: max-content;
+  width: 22rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.4rem;
+  margin-top: 2rem;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ 
+}
+
+img{
+  width: 96%;
+  height: 20rem;
+  margin-top: 0.5rem;
+  object-fit: cover;
+}
+.information{
+  width: 96%;
+  margin: auto;
+
+}
+.card_button{
+  width: 90%;
+  margin-top: 1rem;
+  margin-bottom: 1rem ;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 2px solid rgb(142, 2, 2);
+  background-color: rgb(253, 99, 99);
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card_button:hover{
+  background-color: red;
+}
+.price{
+  font-weight: bolder;
+  color: rgb(101, 161, 11);
+  font-size: 1.2rem;
+}
+.title{
+  font-size: 1.4rem;
+ 
+}
+.nothing_left{
+ 
+  width: 100%;
+  height: 35rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
